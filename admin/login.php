@@ -41,7 +41,7 @@ if (isset($_POST['enviar'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceso Administrador - Tutor IA</title>
+    <title>Acceso Profesor - Tutor IA</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
         .login-container {
@@ -65,10 +65,15 @@ if (isset($_POST['enviar'])) {
 
 <header>
     <div class="logo-container">
-        <span class="logo-icon">🏛️</span>
-        <div>
-            <h1>Acceso Administrador</h1>
-            <p>Panel de administración - Tutor IA</p>
+        <div class="header-logo-wrap">
+            <img src="/ask/logo/logo.png" alt="Logo de la plataforma" class="header-logo">
+        </div>
+        <div class="header-copy">
+            <h1>Acceso Profesor</h1>
+            <p>Panel de profesor - Tutor IA</p>
+            <div class="welcome-box">
+                Bienvenido Profesor
+            </div>
         </div>
     </div>
 </header>
@@ -80,7 +85,7 @@ if (isset($_POST['enviar'])) {
 <section>
     <div class="login-container">
         <div class="login-header">
-            <h2>Verificar Administrador</h2>
+            <h2>Verificar Profesor</h2>
             <p><small>Ingrese sus credenciales para continuar</small></p>
         </div>
 

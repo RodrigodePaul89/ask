@@ -28,8 +28,10 @@ if (!isset($badgePlataforma)) {
 ?>
 <header>
     <div class="logo-container">
-        <span class="logo-icon">🏛️</span>
-        <div>
+        <div class="header-logo-wrap">
+            <img src="/ask/logo/logo.png" alt="Logo de la plataforma" class="header-logo">
+        </div>
+        <div class="header-copy">
             <h1><?php echo htmlspecialchars($tituloPlataforma, ENT_QUOTES, 'UTF-8'); ?></h1>
             <p><?php echo htmlspecialchars($subtituloPlataforma, ENT_QUOTES, 'UTF-8'); ?></p>
             <div class="welcome-box">

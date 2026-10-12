@@ -146,7 +146,7 @@
         </p>
 
         <p style="margin-top: 8px; text-align: center;">
-            ¿Eres administrador? <a href="/ask/admin/login.php"><strong>Ingresar como administrador</strong></a>
+            ¿Eres profesor? <a href="/ask/admin/login.php"><strong>Ingresar como profesor</strong></a>
         </p>
 
     </div>

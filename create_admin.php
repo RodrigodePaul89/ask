@@ -9,7 +9,7 @@ try {
 }
 
 $login = 'admin';
-$nombre = 'Administrador';
+$nombre = 'Profesor';
 $clave = 'admin123';
 
 // Upsert admin user
@@ -27,11 +27,11 @@ $ok = $stmt->execute([
 ]);
 
 if ($ok) {
-    echo "Usuario admin creado/actualizado correctamente.\n";
+    echo "Usuario profesor creado/actualizado correctamente.\n";
     echo "Login: {$login}  Contraseña: {$clave}\n";
     echo "Por seguridad, borra este archivo create_admin.php tras el uso.";
     exit(0);
 }
 
-echo "No se pudo crear el admin. Revisa permisos y conexión a la BD.";
+echo "No se pudo crear el profesor. Revisa permisos y conexión a la BD.";
 exit(1);

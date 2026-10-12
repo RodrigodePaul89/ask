@@ -48,7 +48,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil del Administrador - Tutor IA</title>
+    <title>Perfil del Profesor - Tutor IA</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
         .perfil-container { display: flex; gap: 30px; flex-wrap: wrap; margin-top: 20px; }
@@ -65,7 +65,7 @@
 <?php include 'top_admin.php'; ?>
 
 <section>
-    <h2>Perfil del Administrador</h2>
+    <h2>Perfil del Profesor</h2>
     <div class="perfil-container">
         <div class="info-card">
             <h3>Datos de Usuario</h3>
@@ -115,10 +115,10 @@
         <div>
             <h3>Propósito del Acceso</h3>
             <p>
-                Este perfil representa el acceso oficial del administrador a la plataforma de inteligencia artificial del <strong>Colegio Mayor del Cauca</strong>.
+                Este perfil representa el acceso oficial del profesor a la plataforma de inteligencia artificial del <strong>Colegio Mayor del Cauca</strong>.
             </p>
             <p>
-                Como administrador, puedes supervisar y gestionar la información del sistema.
+                Como profesor, puedes supervisar y gestionar la información del sistema.
             </p>
         </div>
     </div>

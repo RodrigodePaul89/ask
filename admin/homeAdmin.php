@@ -10,7 +10,7 @@ if (!isset($_SESSION['autenticado'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panel Administrador - Tutor IA</title>
+    <title>Panel Profesor - Tutor IA</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
         .grid-objetivos { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 25px 0; }
@@ -59,7 +59,7 @@ include 'top_admin.php';
         <tbody>
             <tr><td><strong>Exploración</strong></td><td>Conocimiento de la interfaz y herramientas.</td><td>Facilitador técnico</td></tr>
             <tr><td><strong>Gestión</strong></td><td>Administración de datos y usuarios.</td><td>Supervisor de contenido</td></tr>
-            <tr><td><strong>Control</strong></td><td>Validación de cambios y funcionamiento.</td><td>Administrador del sistema</td></tr>
+            <tr><td><strong>Control</strong></td><td>Validación de cambios y funcionamiento.</td><td>Profesor del sistema</td></tr>
             <tr><td><strong>Seguimiento</strong></td><td>Revisión del uso y ajustes necesarios.</td><td>Coordinador</td></tr>
         </tbody>
     </table>

@@ -2,7 +2,7 @@
 $adminPagina = basename($_SERVER['PHP_SELF'] ?? '');
 
 if (!isset($tituloPlataforma)) {
-    $tituloPlataforma = 'Plataforma Administrador - Videos con IA';
+    $tituloPlataforma = 'Plataforma Profesor - Videos con IA';
 }
 
 if (!isset($subtituloPlataforma)) {
@@ -22,13 +22,15 @@ if (!isset($subtituloPlataforma)) {
 }
 
 if (!isset($badgePlataforma)) {
-    $badgePlataforma = 'Bienvenido Administrador: ' . ($_SESSION['docente'] ?? ($_SESSION['usuario'] ?? ''));
+    $badgePlataforma = 'Bienvenido Profesor: ' . ($_SESSION['docente'] ?? ($_SESSION['usuario'] ?? ''));
 }
 ?>
 <header>
     <div class="logo-container">
-        <span class="logo-icon">🏛️</span>
-        <div>
+        <div class="header-logo-wrap">
+            <img src="/ask/logo/logo.png" alt="Logo de la plataforma" class="header-logo">
+        </div>
+        <div class="header-copy">
             <h1><?php echo htmlspecialchars($tituloPlataforma, ENT_QUOTES, 'UTF-8'); ?></h1>
             <p><?php echo htmlspecialchars($subtituloPlataforma, ENT_QUOTES, 'UTF-8'); ?></p>
             <div class="welcome-box">

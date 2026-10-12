@@ -6,7 +6,7 @@
         exit();
     }
     $curso = ask_get_course('curso-1');
-$tituloCurso = $curso['titulo'] ?? 'Curso 1 - Administrador';
+$tituloCurso = $curso['titulo'] ?? 'Curso 1 - Profesor';
 $descripcionCurso = $curso['descripcion'] ?? 'Contenido del curso 1 para administración.';
 ?>
 <!DOCTYPE html>
@@ -14,7 +14,7 @@ $descripcionCurso = $curso['descripcion'] ?? 'Contenido del curso 1 para adminis
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso 1 - Administrador</title>
+    <title>Curso 1 - Profesor</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
         blockquote { background: #fff9e6; border-left: 5px solid #D4AF37; padding: 15px; margin: 20px 0; font-style: italic; font-weight: 500; }
@@ -30,7 +30,7 @@ $descripcionCurso = $curso['descripcion'] ?? 'Contenido del curso 1 para adminis
 <section>
     <h2><?php echo htmlspecialchars($tituloCurso, ENT_QUOTES, 'UTF-8'); ?></h2>
     <p><?php echo htmlspecialchars($descripcionCurso, ENT_QUOTES, 'UTF-8'); ?></p>
-    <p>El enfoque no es técnico, sino administrativo: revisar, supervisar y validar el proceso general de la plataforma.</p>
+    <p>El enfoque no es técnico, sino formativo: revisar, supervisar y validar el proceso general de la plataforma.</p>
 </section>
 
 <footer>

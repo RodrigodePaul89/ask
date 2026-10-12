@@ -11,7 +11,8 @@ $rows = ask_list_admin_docente_table_rows();
 ?>
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<head>3
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla Administrativa - Tutor IA</title>
@@ -47,9 +48,9 @@ $rows = ask_list_admin_docente_table_rows();
 </head>
 <body>
 <?php
-$tituloPlataforma = 'Plataforma Administrador - Videos con IA';
+$tituloPlataforma = 'Plataforma Profesor - Videos con IA';
 $subtituloPlataforma = 'Tabla de docentes, estudiantes y cursos';
-$badgePlataforma = 'Bienvenido Administrador: ' . ($_SESSION['docente'] ?? ($_SESSION['usuario'] ?? ''));
+$badgePlataforma = 'Bienvenido Profesor: ' . ($_SESSION['docente'] ?? ($_SESSION['usuario'] ?? ''));
 include 'top_admin.php';
 ?>
 

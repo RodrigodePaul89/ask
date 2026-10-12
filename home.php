@@ -70,14 +70,24 @@
             margin-top: 50px;
         }
         .tarjeta.dark p, .tarjeta.dark a { color: #fff !important; }
+        .hero-banner .btn {
+            color: #121212 !important;
+            text-shadow: none;
+        }
+
+        .hero-banner .btn:hover {
+            color: #121212 !important;
+        }
     </style>
 </head>
 <body>
 
 <header>
     <div class="logo-container">
-        <span class="logo-icon">🏛️</span>
-        <div>
+        <div class="header-logo-wrap">
+            <img src="logo/logo.png" alt="Logo de la plataforma" class="header-logo">
+        </div>
+        <div class="header-copy">
             <h1>Tutor IA: Producción Audiovisual</h1>
             <p>Institución Universitaria Colegio Mayor del Cauca</p>
         </div>
@@ -94,7 +104,7 @@
     <br>
     <a href="verificacion.php" class="btn" style="background:#D4AF37; color:#121212;">Comenzar ahora</a>
     <a href="registrar.php" class="btn" style="margin-left:10px; background:#ffffff; color:#002244;">Registrar profesor</a>
-    <a href="/ask/admin/login.php" class="btn" style="margin-left:10px; background:#002244; color:#ffffff;">Administrador</a>
+    <a href="/ask/admin/login.php" class="btn" style="margin-left:10px; background:#002244; color:#ffffff;">Profesor</a>
 </div>
 
 <section>

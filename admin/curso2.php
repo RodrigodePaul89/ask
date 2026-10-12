@@ -6,7 +6,7 @@
         exit();
     }
     $curso = ask_get_course('curso-2');
-    $tituloCurso = $curso['titulo'] ?? 'Curso 2 - Administrador';
+    $tituloCurso = $curso['titulo'] ?? 'Curso 2 - Profesor';
 $descripcionCurso = $curso['descripcion'] ?? 'Contenido del curso 2 para administración.';
 ?>
 <!DOCTYPE html>
@@ -14,7 +14,7 @@ $descripcionCurso = $curso['descripcion'] ?? 'Contenido del curso 2 para adminis
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso 2 - Administrador</title>
+    <title>Curso 2 - Profesor</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
         pre { background: #121212; color: #D4AF37; padding: 20px; border: 2px solid #002244; font-family: 'Courier New', Courier, monospace; margin: 15px 0; overflow-x: auto; border-left: 10px solid #D4AF37; }
@@ -33,7 +33,7 @@ $descripcionCurso = $curso['descripcion'] ?? 'Contenido del curso 2 para adminis
 <section>
     <h2><?php echo htmlspecialchars($tituloCurso, ENT_QUOTES, 'UTF-8'); ?></h2>
     <p><?php echo htmlspecialchars($descripcionCurso, ENT_QUOTES, 'UTF-8'); ?></p>
-    <p>El administrador puede revisar la evolución del sistema y la estructura de los contenidos.</p>
+    <p>El profesor puede revisar la evolución del sistema y la estructura de los contenidos.</p>
 </section>
 
 <footer>

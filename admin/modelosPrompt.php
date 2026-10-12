@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelos de Prompts - Administrador</title>
+    <title>Modelos de Prompts - Profesor</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
         .formula-box { background-color: #121212; color: #D4AF37; padding: 20px; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-size: 1.2rem; border-left: 10px solid #002244; margin: 15px 0; text-align: center; letter-spacing: 2px; }
@@ -27,7 +27,7 @@
 
 <section>
     <h2>Modelos de construcción de prompts</h2>
-    <p>Este módulo proporciona estructuras lógicas que el administrador puede revisar como referencia del contenido del sistema.</p>
+    <p>Este módulo proporciona estructuras lógicas que el profesor puede revisar como referencia del contenido del sistema.</p>
 
     <div class="tarjeta">
         <h3>Modelo 1: Prompt Básico</h3>

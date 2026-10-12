@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formación Administrador - Tutor IA</title>
+    <title>Formación Profesor - Tutor IA</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
         table { border: 2px solid #121212; margin: 25px 0; }
@@ -27,8 +27,8 @@
 <?php include 'top_admin.php'; ?>
 
 <section>
-    <h2>Formación Técnica en IA para la Administración de la Plataforma</h2>
-    <p>Este módulo ayuda al administrador a comprender el flujo interno de la plataforma y su operación general.</p>
+    <h2>Formación Técnica en IA para el Profesorado de la Plataforma</h2>
+    <p>Este módulo ayuda al profesor a comprender el flujo interno de la plataforma y su operación general.</p>
 
     <div class="tarjeta">
         <h3>¿Cómo interpreta la plataforma la información?</h3>
